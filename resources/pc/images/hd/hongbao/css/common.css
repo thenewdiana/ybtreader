@@ -1,0 +1,75 @@
+﻿/* 全局样式 */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input { margin: 0; padding: 0; word-break: break-all; }
+body, button, input, select, textarea { font: 12px/1.5 arial, 'MicroSoft YaHei', '宋体'; color:#545555}
+body { position:relative}
+ul, ol, li { list-style: none; }
+img { border: none; }
+input, img { vertical-align: middle; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+table { border-spacing: 0; border-collapse: collapse; }
+em, i, address { font-style: normal; }
+textarea { overflow-y: auto; }
+input { outline: none; }
+address, caption, cite, code, dfn, em, th, var { font-style: normal; font-weight: normal; }
+/* 链接样式 */
+a {text-decoration: none; color:#545555; }
+a:hover { color:#000000;}
+a, area { blr:expression(this.onFocus=this.blur())
+}
+:focus { outline: none; }
+.col99{color:#999}
+.blue,.blue a{color:#0078B7}
+/* 浮动样式 */
+.fl { float: left }
+.fr { float: right }
+.clear:after { content: ' '; clear: both; display: block; height: 0; visibility: hidden; line-height: 0 }
+.clearFix:after { content: " "; display: block; visibility: hidden; height: 0; clear: both; }
+.opacity{-moz-opacity:0.25;opacity:0.25;filter:alpha(opacity=25);}
+
+/* 定位 */
+.pos_r { position: relative; }
+.pos_a { position: absolute; }
+.mat10{margin:10px 0 0}
+/* 字体 */
+.yahei { font-family: "MicroSoft YaHei"; }
+.sisong { font-family:"宋体"; }
+.Arial { font-family: Arial, Helvetica, sans-serif; }
+.red,.red a{color:#b4161d}
+/*一处隐藏*/
+.overflow { overflow: hidden; }
+.f14 { font-size: 14px; }
+.f16 { font-size: 16px; }
+.f18 { font-size: 18px; }
+.f12{font-size:12px}
+
+.wrap{width:990px;text-align:left;margin:0 auto;}
+.w945{width:945px;margin:0 auto}
+.whiter,.whiter a{color:#fff}
+.padt15{padding:15px 0 0}
+.ac{ text-align:center}
+.ar{ text-align:right}
+.al{ text-align:left}
+
+.mg{margin:0 8px}
+
+.mt25{margin-top:25px}
+.mt20{margin-top:20px;}
+.mt15{margin-top:15px;}
+.mt10{margin-top:10px;}
+.mt5{margin-top:5px;}
+.mt8{margin-bottom:8px;}
+.white,.white a{color:#fff}
+.strong{font-weight:bold}
+.lin30{line-height:30px;}
+.text{ text-indent:2em;}
+.hide{ display:none}
+.show{ display:block}
+.ml5{ margin-left:5px}
+.m25{ margin-left:25px}
+.red,.red a{color:#ae2a23}
+.yellow,.yellow a{color:#ed6c00}
+.mg25{margin:0 25px;}
+#mt20{margin-top:20px}
+.white,.white a{color:#fff}
+.mgle15{margin:0 0 0 15px;}
+.c00{color:#000}

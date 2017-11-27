@@ -1,0 +1,151 @@
+ul li {list-style:none;float:left}
+.banner {height:503px;background-image:url(bar1.png);background-size:1162px;}
+.rule-body {background-image:url(bg2.png);}
+.rule-main {margin:0 auto;width:800px;background-color:#F0F0F0}
+.rule-rules { margin-top:40px;
+}
+.rule-rules-title {
+    margin:0 auto;
+    background-image:url(bg-rule.png);back; background-repeat:no-repeat;width:798px; height:80px;
+            text-align:center;font-size:22px;padding-top:10px;color:white
+}
+.rule-rules-detail {height:200px;}
+.rule-rules-left{float:left;width:180px;height:200px}
+.rule-rules-right{height:200px}
+    .rule-rules-right li {
+        color:red;font-size:14px;height:30px;float:none
+    }
+.rule-method {height:250px}
+.rule-method-title{
+    margin:0 auto;
+    background-image:url(bg-method.png);background-repeat:no-repeat;width:798px; height:80px;
+            text-align:center;font-size:22px;padding-top:10px;color:white
+}
+.rule-method-time {
+    background-image:url(clock.png);background-repeat:no-repeat;
+    margin:20px 10px; padding-left:50px;
+    height:45px;
+    color:red;font-size:18px;font-weight:bold}
+    .rule-method-time .timespan { font-size:28px;
+    }
+.rule-method-fangfa {color:red;margin-left:20px;margin-top:0px;}
+.rule-method-fangfa .ff {font-size:14px;font-weight:bold}
+.rule-reward {color:#FEF102}
+.rule-reward-item {background-image:url(bg-reward.png); background-repeat:no-repeat;height:242px;width:800px;color:#FEF102}
+.rule-reward-lvl1 {font-size:36px;font-weight:bold;text-align:center;padding-left:25px;padding-top:85px;}
+.rule-reward-lvl1 .unit {font-size:12px;}
+.rule-reward-lvl1-num {font-size:28px;text-align:center;padding-top:45px}
+.rule-reward-lvl2 {color:red;width:520px;height:400px;margin:0 auto;padding-top:30px;}
+    .rule-reward-lvl2 .item {float:left;width:260px;height:180px; }
+    .rule-reward-lvl2 .item .amount {font-size:28px;font-weight:bold; background-image:url(bg-reward2.png);background-repeat:no-repeat; height:80px; padding-left:95px;padding-top:34px;}
+    .rule-reward-lvl2 .item .amount .unit {font-size:12px}
+        .rule-reward-lvl2 .item .info { font-size: 20px }
+.rule-votemethod {font-size:20px;margin:0 auto; }
+.rule-votemethod .title{ background-image:url(bg-votemethod.png);background-repeat:no-repeat;width:798px; height:80px; text-align:center;font-size:22px;padding-top:10px;color:white }
+.rule-votemethod .info{ height:90px;text-align:center;font-size:20px;padding-top:10px;color:#FF7200 }
+.rule-share { background-color:#FF7200;height:254px;text-align:center;color:white;padding-top:40px; }
+.rule-share .desc {font-size:20px;font-family:"����"}
+.rule-share-img { width: 96px; }
+.rule-share .shareicon {padding-top:40px;margin:0 auto;width:500px}
+.rule-share .shareicon-desc {width:125px;font-size:16px;float:left;}
+.h3 {height:3px}
+.h15{height:15px}
+.h30 {height:30px}
+.h12 {height:120px}
+.f12 {font-size:12px}
+.f18 {font-size:18px}
+.f20 {font-size:20px}
+.f20b {font-size:20px;font-weight:bold}
+.t30 {padding-top:30px}
+.rule-bg-corp {background-color:#25252F;background-image:url(bg2.png);background-repeat:repeat-x; background-size:150px 140px; height:400px;text-align:center;color:white}
+.rule-bg-corp a{color:red}
+.rule-bg-server{background-color:#2F2E3E;height:103px;text-align:center;color:white}
+
+.topm {margin:0 auto;width:800px;background-color:#F0F0F0}
+.top1 {margin:0 auto;width:730px;}
+.topleft { width:180px;float:left;margin-top:20px;}
+.topbox {border:1px solid #626262}
+.p1{padding:1px}
+.p2 {padding:2px}
+.p3 { padding: 3px; }
+.p10{padding:10px}
+.votenum {background-image:url(bgtopnum.png);border:1px solid #c3b8b8;text-align:center;color:#AB0304;height:22px;line-height:22px;background-position:center}
+.limc {position: relative;
+  display: inline-block;
+  width: 100px;}
+ .votelink {color:#AB0304}
+.topright {
+    width:470px;
+    float:left;
+    padding:50px 0px 0px 60px;
+    background-image:url(bgtop1.png);background-repeat:no-repeat
+}
+.topbname {font-size:30px;font-weight:bold}
+.bdesc {
+    height:120px;
+}
+.booknum {float:left;font-size:14px;width:150px}
+.top23 {margin:0 auto;width:765px;padding-left:35px;}
+.top2 {width:377px;float:left}
+.topleft2 { width:128px;float:left;margin-top:33px;
+}
+.topright2 {
+    width:220px;
+    float:left;
+    padding:40px 0px 40px 10px;
+    background-image:url(bgtop2.png);background-repeat:no-repeat
+}
+.bt3 {background-image:url(bgtop3.png);}
+.colorblack {color:black}
+.bdesc2 {
+    height:58px;
+}
+.booknum2 {float:left;font-size:14px;width:110px}
+.top15 li {text-align:center;}
+.colbimg{width:100px;}
+.colrank {width:50px;}
+.colbname {width:180px}
+.colauthor {width:120px}
+.colfav {width:50px;}
+.colgold {width:50px;}
+.colreward {width:60px;}
+.colclick {width:60px;}
+.colvote {width:128px;}
+.top15header {line-height:54px;font-size:16px;}
+    .top15header li {background-color:#E6E8E7;
+    }
+    .top15header .colbimg {background-image:url(topbook.png);background-repeat:no-repeat;background-position:center}
+    .top15header .colbname {text-align:center}
+    .top15header .colauthor {text-align:center}
+.rank {line-height:85px;font-size:14px;
+}
+.rank li{background-color:#E6E8E7;}
+.rank .colrank {background-image:url(yearbestrank.png);background-repeat:no-repeat;background-position:center}
+.rankalt {line-height:85px;font-size:14px;
+}
+.rankalt .colrank {background-image:url(yearbestrank.png);background-repeat:no-repeat;background-position:center}
+.rankalt li {background-color:#F0F0F0;}
+li.colrank div{background-image:url(yearbestrank.png);background-repeat:no-repeat}
+.top50 li {text-align:center;line-height:40px;font-size:14px}
+.rank50 li {background-color:#E6E8E7
+}
+.rankalt50 li {background-color:#F0F0F0
+}
+.top50 .colbname {width:300px;text-align:left;padding-left:30px;}
+.top50 .colauthor {text-align:left}
+.votemenu {
+            background-image: url(bgmenu.png);
+            width: 430px;
+            height: 40px;
+            float: right;
+            background-size: 446px 43px;
+        }
+        .bgr {
+            background-image: url(bgmenur.png);
+        }
+        .votemenulink {float:left;font-size:14px;font-weight:bold;width:70px;height:40px;
+                       text-align:center
+        }
+            .votemenulink a {
+                line-height:40px;
+            }

@@ -1,0 +1,418 @@
+.common_title01 {
+  overflow: hidden;
+  height: 54px;
+  padding: 0;
+  line-height: 54px
+}
+
+.common_title01 span {
+  float: left;
+  font-size: 18px;
+  color: #333
+}
+
+.common_title01 .isTxt {
+  float: right
+}
+
+.common_title01 .more {
+  float: right
+}
+
+.common_title02 {
+  width: 100%;
+  overflow: hidden;
+  height: 43px;
+  padding: 0 18px;
+  line-height: 43px;
+  border-bottom: solid 1px #eee
+}
+
+.common_title02 span {
+  float: left;
+  font-size: 16px;
+  color: #666
+}
+
+.common_title02 .isTxt {
+  float: right
+}
+
+.common_title02 .more {
+  float: right
+}
+
+.common_title03 {
+  overflow: hidden;
+  height: 43px;
+  padding: 0 18px;
+  line-height: 43px;
+  border-bottom: solid 1px #eee
+}
+
+.common_title03 span {
+  float: left;
+  color: #333;
+  font-size: 18px
+}
+
+.common_title03 .isTxt {
+  float: right;
+  font-weight: normal;
+  color: #999;
+  font-size: 14px
+}
+
+.common_title03 .more {
+  float: right;
+  font-size: 14px;
+  color: #666
+}
+
+.common_title03 .more:hover {
+  text-decoration: underline
+}
+
+.common_title04 {
+  overflow: hidden;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  border-bottom: solid 1px #eee
+}
+
+.common_title04 span {
+  float: left;
+  color: #333;
+  font-size: 16px
+}
+
+.common_title04 .isTxt {
+  float: right
+}
+
+.common_title04 .more {
+  float: right;
+  text-align: center;
+  color: #666;
+  font-size: 14px
+}
+
+.common_title05 {
+  width: 100%;
+  overflow: hidden;
+  height: 43px;
+  line-height: 43px;
+  padding: 0 18px;
+  border-bottom: solid 1px #eee
+}
+
+.common_title05 span {
+  float: left;
+  color: #333;
+  font-size: 16px
+}
+
+.common_title05 .isTxt {
+  float: right
+}
+
+.common_title05 .more {
+  float: right;
+  text-align: center;
+  color: #666;
+  font-size: 14px
+}
+
+.common_title06 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden
+}
+
+.common_title06 span {
+  float: left;
+  color: #333;
+  font-size: 18px
+}
+
+.common_title06 .isTxt {
+  float: right
+}
+
+.common_title06 .more {
+  float: right;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  margin-right: 2px
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, input, select, option {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft YaHei';
+  font-weight: normal
+}
+
+ul, li, ol {
+  list-style: none
+}
+
+img {
+  border: 0;
+  outline: 0
+}
+
+em, i {
+  font-style: normal
+}
+
+body {
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #333;
+  background: #eee;
+  line-height: 24px
+}
+
+a {
+  outline: 0;
+  text-decoration: none;
+  color: #666
+}
+
+a:hover {
+  text-decoration: none
+}
+
+.clear {
+  clear: both
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.clearfix:after {
+  content: '.';
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+  zoom: 1
+}
+
+.software_intro {
+  width: 1170px;
+  margin: 0 auto
+}
+
+.software_intro .bor_bac {
+  border: solid 1px #e3e3e3;
+  background: #fff;
+  margin-bottom: 10px
+}
+
+.csdn-toolbar .container {
+  width: 1170px
+}
+
+.csdn-toolbar .unlogin .search .wrap {
+  z-index: 99999
+}
+
+.csdn-toolbar .logo .img {
+  background-position: 129px -603px
+}
+
+.common_title01 .isTxt {
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #999
+}
+
+.order_information {
+  padding: 25px 19px
+}
+
+.order_tit02 {
+  height: 42px;
+  line-height: 42px;
+  padding-left: 20px;
+  border-bottom: 1px solid #eee;
+  font-size: 18px
+}
+
+.order_tit01 {
+  font-size: 16px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.order_tit01 span {
+  color: #ee5e53
+}
+.order_tit01 p{
+  display: inline-block;
+  padding-left: 40px;
+}
+.order_tit01 a {
+  display: inline-block;
+  width: 94px;
+  height: 28px;
+  margin-left: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  color: #666
+}
+
+.order_tit01 .off_shelves {
+  border: 1px solid #eee;
+  color: #ee5e53;
+  background: #fff
+}
+
+.order_tit01 .pay {
+  border: 1px solid #ee5e53;
+  color: #fff;
+  background: #ee5e53
+}
+
+.order_remark {
+  padding-top: 3px;
+  font-size: 14px;
+  color: #666
+}
+
+.weixin_pay_box {
+  height: auto;
+  padding: 27px 0 28px;
+  overflow: hidden;
+  width:710px;
+  margin: 0 auto;
+}
+
+.weixin_pay_box .weixin_pay_l {
+  width: 282px;
+  padding-right: 104px
+}
+
+.weixin_pay_box .weixin_pay_l .weixin_pay_text {
+  overflow: hidden;
+  padding: 8px 0 10px
+}
+
+.weixin_pay_box .weixin_pay_l .weixin_pay_text span {
+  font-size: 16px;
+  color: #666
+}
+
+.weixin_pay_box .weixin_pay_l .weixin_pay_text .soft_mall_p {
+  display: inline-block;
+  width: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ee5e53
+}
+
+.weixin_pay_box .weixin_pay_l .weixin_pay_text .soft_mall_p img {
+  margin: 0 3px
+}
+
+.weixin_pay_box .weixin_pay_l .weixin_pay_text .soft_mall_p em {
+  font-size: 18px
+}
+
+.weixin_pay_box .weixin_pay_l .detail {
+  font-size: 14px;
+  color: #666
+}
+
+.weixin_pay_box .weixin_pay_l .detail:hover {
+  color: #2c81aa
+}
+
+.weixin_pay_box .weixin_pay {
+  padding: 23px;
+  border: 1px solid #e5e5e5
+}
+
+.weixin_pay_box .weixin_pay img {
+  width: 233px;
+  height: 233px
+}
+
+.weixin_pay_box .weixin_saomiao {
+  height: 52px;
+  padding: 11px 0 0 115px;
+  margin-top: 15px;
+  background: #ee5e53 url("../pay/images/sao.png") no-repeat 47px center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff
+}
+
+.weixin_pay_box .weixin_pay_r {
+  width: 318px
+}
+.shouAn{
+  display: none;
+}
+/* å“åº”å¼ */
+@media (max-width: 1170px) {
+  .software_intro{
+    width: 100%;
+  }
+  .common_title01{
+    padding: 0 15px;
+  }
+}
+@media (max-width: 768px) {
+  .order_remark,
+  .order_tit01 p{
+    display: none;
+  }
+  .weixin_pay_box{
+    width:282px ;
+  }
+  .weixin_pay_r{
+    display: none;
+  }
+  .weixin_pay_box  .weixin_pay_l{
+    float: none;
+    padding-right: 0px;
+  }
+  .order_information{
+    padding: 15px;
+  }
+  .common_title01{
+    height: 46px;
+    line-height: 46px;
+  }
+  .software_intro .bor_bac{
+    margin-bottom: 4px;
+  }
+  .weixin_pay_box{
+    padding: 15px 0 28px;
+  }
+  .shouAn{
+    display: block;
+    padding-top: 10px;
+  }
+  .saoYiSao{
+    display: none;
+  }
+  .weixin_pay_box .weixin_saomiao{
+    margin-top: 8px;
+  }
+}

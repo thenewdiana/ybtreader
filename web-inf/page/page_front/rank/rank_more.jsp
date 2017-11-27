@@ -1,0 +1,2 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<a href="${pageContext.request.contextPath }/rank/${param.action}" title="" class="fr"><img src="${sessionScope.baseUrl}pc/images/sj3.jpg" width="12" height="13" alt="" /></a>

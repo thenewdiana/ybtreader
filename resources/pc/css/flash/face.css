@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+.content{width:1000px;
+height:1300px;
+margin:0 auto;
+}
+.top{width:1000px;
+height:180px;
+border:1px solid #666;
+
+float:left;}
+.ge{ margin-left:120px;
+margin-top:-20px;}
+
+.ge2{ margin-left:250px;
+position:relative;
+top:-100px;}
+
+.nav-top ul li{
+	float:left;
+margin-left:20px;
+font-size:15px;
+margin-top:15px;}
+.li-1{color:red;}
+
+.center{width:1000px;
+height:200px;
+
+
+
+float:left;
+}
+.center p{font-size:15px;
+color:#000;
+margin-top:10px;
+margin-left:30px;}
+.center span{margin-left:10px;
+
+font-size:15px; }
+.center ul li{float:left;
+}
+
+.song{ 
+font-size:14px;
+color:#000;}
+
+
+
+
+
+
+
+
+.list{width:240px;
+height:300px;
+float:left;
+margin-left:16px;
+border:1px solid #666;
+margin-top:0px;
+
+}
+.cen h2{color:#FFF;
+padding-top:20px;}
+
+
+
+
+.cen li img{width:240px;
+height:240px;}
+
+
+.nav-top{width:1000px;
+height:30px;
+border-bottom:1px solid #666;
+padding-bottom:20px;}
+
+.Courier{width:1000px;
+height:800px;
+border:1px solid #CCC;
+margin:0 auto;
+background-color:#FFC;
+
+float:left;
+margin-top:30px;}
+.Courier span{position:relative;
+top:10px;
+left:50px;}
+
+.Courier ul li{float:left;
+
+margin-left:50px;
+margin-top:20px;}
+.Courier img{border:1px solid #333;}
+.Courier ul{width:600px;
+margin-left:300px;
+position:relative; 
+top:-200px; }
+
+.recommended{width:1000px;
+height:550px;
+float:left;
+
+margin-top:30px;}
+.recommended h1{font-size:32px;
+color:#000;}
+.recommended span{font-size:22px;
+color:#CC6733;}
+.list2{width:1150px;
+height:250px;
+position:relative;
+left:-150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.title1{width:240px;
+height:60px;
+background-color:#CC6633;
+float:left;}
+
+.title2{width:240px;
+height:60px;
+background-color:#666666;
+float:left;}
+
+.title3{width:240px;
+height:60px;
+background-color:#669966;
+float:left;}
+
+#title-right{width:234px;
+height:302px;
+margin-left:0px;
+border:0px;
+background-color:#666666;
+color:#CCCCCC;}
+
+
+#title-right h1{color:#FFCC33;
+font-size:24px;
+margin-left:10px;
+padding-bottom:5px;
+
+padding-top:15px;
+border-bottom:4px solid #FFCC33;
+width:100px;}
+#title-right ul li{ float:none;
+height:17px;}
+
+.title-foot{width:200px;
+height:50px;
+float:left;
+margin-top:23px;
+margin-left:15px;
+border-top:1px dashed #999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

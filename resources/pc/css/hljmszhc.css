@@ -1,0 +1,20 @@
+.alert {background-color: #fcf8e3;border: 1px solid #fbeed5;border-radius: 4px;margin-bottom: 20px;padding: 8px 35px 8px 14px;}
+.alert, .alert h4 {color: #c09853;}
+.alert-success {color: #468847;}
+
+.pay-wait {padding: 15px;`}
+.space-10 {font-size: 0;padding-top: 10px;}
+
+
+.button-blue {background: #0a86ba none repeat scroll 0 0;color: #fff;}
+.button-blue:hover {background: #0875a2 none repeat scroll 0 0;color: #fff;text-decoration: none;}
+.button-blue:active {background: #07678f none repeat scroll 0 0;color: #fff;}
+.button-green {background: #479c4f none repeat scroll 0 0;color: #fff;}
+.button-green:hover {background: #3f8a46 none repeat scroll 0 0;color: #fff;text-decoration: none;}
+.button-green:active {background: #397c3f none repeat scroll 0 0;color: #fff;}
+.button-orange {background: #fa6400 none repeat scroll 0 0;color: #fff;}
+.button-orange:hover {background: #e05a00 none repeat scroll 0 0;color: #fff;text-decoration: none;}
+.button-orange:active { background: #cc5200 none repeat scroll 0 0;color: #fff;}
+
+.button-input {border: medium none;border-radius: 2px;cursor: pointer;display: inline-block;font-family: Arial,"宋体";font-size: 16px;font-weight: 700;height: 34px;line-height: 34px;padding: 0 12px;text-align: center;text-decoration: none;width: 120px;}
+

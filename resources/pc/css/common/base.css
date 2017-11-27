@@ -1,0 +1,81 @@
+@charset 'utf-8'
+body,html{
+	width: 100%;
+	font-weight: 200;
+	font-size: 12px;
+	min-width: 1000px;
+	font-family:微软雅黑, 'Microsoft YaHei',arial,sans-serif;
+	color:#333;
+}
+h1,h2,h3,h4,h5,p{
+  color: #333;
+	font-weight: 200;
+}
+.reader-for-other h1, 
+.reader-for-other h2, 
+.reader-for-other h3, 
+.reader-for-other h4, 
+.reader-for-other p {
+  font-family: 微软雅黑, 'Microsoft YaHei',arial,sans-serif;
+}
+.reader-for-mac h1, 
+.reader-for-mac h2, 
+.reader-for-mac h3, 
+.reader-for-mac h4, 
+.reader-for-mac p {
+  font-family: 'pingfang sc light';
+}
+.clearfix{
+	display: inline-block;
+}
+.clearfix:after{
+	content:'.';
+	display: block;
+	height: 0;
+	line-height: 0;
+	clear:both;
+	visibility: hidden;
+}
+::-webkit-input-placeholder{
+	color:#b5b5b5;
+}
+::-moz-placeholder {
+　color:#b5b5b5;
+}
+:-ms-input-placeholder {
+　color:#b5b5b5;
+}
+input:-webkit-autofill { 
+-webkit-box-shadow: 0 0 0px 1000px white inset; 
+} 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: #b2b2b2;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 8px;
+    background-color: #636161;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 10px;
+    background-color: #636161;
+}
+button{
+ 	outline: none;
+ 	border:none;
+	background: none;
+}
+html.modal-open{
+	overflow: hidden;
+}
+html.modal-overflow{
+margin-right:10px;
+}
+html.modal-overflow .fix-right{
+	margin-left:579px;
+}

@@ -1,0 +1,518 @@
+@charset "utf-8";
+.top-wrapper{
+background-color: #fff;
+}
+/*reader-container*/
+.reader-container{
+	position: relative;
+	width:100%;
+}
+.read-dark{
+	background:#525252;
+}
+.com-loading{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	width: 32px;
+	height: 32px;
+	z-index: 2;
+}
+/*reader-page-wrap*/
+.reader-page-wrap{
+	position: relative;
+	width:1000px;
+	margin:0 auto;
+	background:#f1f1f1;
+}
+.reader-c-wrap{
+	position: relative;
+	min-height: 800px;
+	padding-top:30px;
+}
+.reader-c{
+	position: relative;
+	padding: 30px 0;
+}
+.chapter-wrapper{
+	padding: 0 96px 30px;
+}
+.reader-c .title{
+	text-align: center;
+	line-height: 60px;
+	padding-bottom:10px;
+	font-size: 36px;
+	font-weight:normal;
+}
+.reader-c .info{
+	padding-bottom: 50px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+.reader-c  .text{
+	font-size: 18px;
+	line-height: 2;
+	text-indent: 0;
+}
+/*fix-right*/
+.fix-right{
+	z-index: 99;
+	position:fixed;
+	left:50%;
+	margin-left: 584px;
+	top:110px;
+}
+.bottom-tools{width:64px; background:#8A8A8A;padding:5px 0 0; position:absolute;right:0;top:0;}
+.bottom-tools  .item{height:55px;margin:0 0 5px; cursor:pointer;background:url(../../images/reader/sprite.png) no-repeat 0 0;}
+.bottom-tools .pf1{ background-position: 0 0;}
+.bottom-tools .pf2{ background-position: 0 -56px;}
+.bottom-tools .pf3{ background-position: 0 -111px;}
+.bottom-tools .pf4{ background-position: -1px -298px;}
+.bottom-tools .pf5{ background-position: -1px -167px;}
+.bottom-tools .pf6{ display:none;background-position: 0 -231px; margin:0}
+.bord{border:1px solid #ddd;border-top:none}
+.bords{border:1px solid #D9D9D9}
+.bookmark-list{
+	display: none;
+	position: absolute;
+	top:190px;
+	right: 66px;
+	width:471px;
+	height: 349px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box; /* Firefox */
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	background: #fff;
+}
+.bookmark-list .text{
+	font-size: 14px;
+}
+.bookmark-list .wrapper{
+	width:100%;
+	height: 349px; 
+	padding-bottom: 34px;
+	position: relative;
+	box-sizing:border-box;
+	-o-box-sizing:border-box; /* Firefox */
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	overflow-y: auto;
+	border:1px solid #949494;
+}
+.bookmark-list .title{
+	position: relative;
+	padding: 0 12px 0 20px;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+	font-weight: 600;
+	color:#464646;
+	border-bottom: 1px solid #e8e7e7;
+}
+.bookmark-list .title .text{
+	font-weight: 600;
+	text-indent: 0;
+}
+.bookmark-list .title .close{
+	position: absolute;
+	right: 12px;
+	top:8px;
+	width:18px;
+	height: 18px;
+	background:url(../../images/reader/btn_close.png) no-repeat center center;
+	border:none;
+	cursor: pointer;
+}
+.bookmark-list .none{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width:100%;
+	height: 30px;
+	text-align: center;
+	margin:auto;
+	font-size: 14px;
+}
+.bookmark-list .none .text{
+	text-indent:0;
+}
+.bookmark-list .list{
+}
+.bookmark-list .list .item{
+	position: relative;
+	padding: 8px 30px 8px 20px;
+	border-bottom: 1px solid #e8e7e7;
+}
+.bookmark-list .list .item .title{
+	padding: 0;
+	border:none;
+	font-size: 14px;
+}
+.bookmark-list .list .item .title .date,.bookmark-list .list .item .title .time{
+	margin-left: 20px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 200;
+	color:#b2b2b2;
+}
+.bookmark-list .list .item .title .date{
+	margin-left: 30px;
+}
+
+.bookmark-list .list .item .desc .text{
+	margin:0 30px 0 24px;
+	text-indent: 0;
+	font-size: 13px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.bookmark-list .list .item .del{
+	position: absolute;
+	right: 12px;
+	top:40%;
+	top:-moz-calc(50% - 19px);
+	top:-webkit-calc(50% - 19px);
+	top:calc(50% - 19px);
+	width:18px;
+	height: 19px;
+	background:url(../../images/reader/btn_del.png) no-repeat center center;
+	border:none;
+	cursor: pointer;
+}
+.column{
+	display: none;
+	z-index: 10;
+	position: relative;
+  left: 50%;
+  bottom: 10px;
+  margin-left: -375px;
+}
+.columns{
+	width: 707px;
+}
+.column .ce-c3 dd {
+  padding: 5px 0 0 0;
+}
+.css_img_reward_type {
+	width:97px;
+	height: 97px;
+	border:2px solid #fff;
+	margin:0 0 2px; 
+	display:block;
+}
+.css_img_reward_type_on {
+  border-color:#FAC23B;
+}
+.participate{
+	padding: 2px 96px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffffff,endcolorstr=#eaeaea,gradientType=1);/*IE<9>*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ffffff, endColorstr=#eaeaea)";/*IE8+*/
+	background:-webkit-linear-gradient( top,#fff,#eaeaea);
+	background:-moz-linear-gradient( top,#fff,#eaeaea);
+	background:-ms-linear-gradient( top,#fff,#eaeaea);
+	background:-o-linear-gradient( top,#fff,#eaeaea);
+	border-top:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	text-align: right;
+}
+.participate .btn{
+	font-size: 14px;
+	line-height: 24px;
+  background: url(../../images/reader/sprite.png) no-repeat -65px -1px;
+  display: inline-block;
+  padding: 0 0 0 25px;
+}
+.participate .comment {
+  margin: 0 25px 0 25px;
+  background: url(../../images/reader/sprite.png) no-repeat -65px -50px;
+}
+.participate .reward {
+	vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background: url(../../images/reader/sprite.png) no-repeat -63px -108px;
+}
+/**/
+.nav-tilet .tilet1 a{
+	vertical-align: middle;
+	height: 28px;
+}
+/*
+.discuss{
+  display: none;
+  padding: 25px;
+  width: 948px;
+  margin: 0 auto;
+	font-size: 14px;
+	border: 1px solid #d8d8d8;
+  background: #f1f1f1;
+}
+.discuss .release {
+	position: relative;
+	padding-bottom: 24px;
+	line-height: 22px;
+}
+.discuss .release .input-text{
+  width: 100%;
+  margin: 10px 0 5px;
+  line-height: 25px;
+  background: #e9e9e9;
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+} 
+.discuss .warning{
+	color:#ae2a23;
+}
+.discuss .btn-comment {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	display: inline-block;
+	padding: 0 11px;
+  background: #d1cbbf;
+  color: #564d36;
+  border: 1px solid #a89c7e;
+  border-radius: 10px;
+}
+.discuss .reviews{
+	margin-top: 20px;
+	border-top: 1px solid #d5d5d6;
+	font-size: 0;
+}
+.discuss .reviews .item{
+	position: relative;
+  overflow: hidden;
+  line-height: 20px;
+  border-bottom: 1px dotted #E5E5E5;
+  padding: 0 0 15px;
+  margin: 15px 0;
+}
+.discuss .reviews .item .btn-del{
+	display: none;
+	position: absolute;
+	top:0;
+	right: 10px;
+	width:18px;
+	height: 18px;
+	background:#8b7e5f;
+	border-radius: 18px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.discuss .reviews .item .btn-del:before{
+	content:'';
+	width:13px;
+	height: 1px;
+	background:#fff;
+	position: absolute;
+	top:8px;
+	left: 3px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	        transform:rotate(45deg);
+}
+.discuss .reviews .item .btn-del:after{
+	content:'';
+	width:13px;
+	height: 1px;
+	background:#fff;
+	position: absolute;
+	top:8px;
+	left: 3px;
+	-webkit-transform:rotate(-45deg);
+	        transform:rotate(-45deg);
+}
+.discuss .reviews .left {
+	display: inline-block;
+  width: 72px;
+  text-align: center;
+}
+.discuss .reviews .left .link{
+	display: block;
+}
+.discuss .reviews .left .avatar{
+	width:53px;
+	height:55px;
+}
+.discuss .reviews .left .name{
+	color:#000;
+	font-size: 12px;
+}
+.discuss .reviews .left .user{
+	position: relative;
+	width:36px;
+	height: 19px;
+	margin:0 auto;
+	background:url(../../images/reader/sprite.png) no-repeat 0 -472px;
+}
+.discuss .reviews .left .type1{
+	background-position:0 -472px
+}
+.discuss .reviews .left .type2{
+	background-position: -47px -472px;
+}
+.discuss .reviews .left .type3{
+	background-position: -94px -472px;
+}
+.discuss .reviews .left .type4{
+	background-position: -142px -472px;
+}
+.discuss .reviews .left .type5{
+	background-position: -189px -472px;
+}
+.discuss .reviews .left .vip{
+  width: 27px;
+  height: 15px;
+  margin:6px auto 0;
+  background: url(../../images/reader/sprite.png) no-repeat 0 0;
+  line-height: 20px;
+
+}
+.discuss .reviews .left .v1{
+  background-position: 4px -363px;
+}
+.discuss .reviews .left .v2{
+  background-position: -29px -363px;
+}
+.discuss .reviews .left .v3{
+  background-position: -68px -363px;
+}
+.discuss .reviews .left .v4{
+  background-position: -104px -363px;
+}
+.discuss .reviews .left .v5{
+  background-position: -141px -363px;
+}
+.discuss .reviews .left .v6{
+  background-position: 4px -395px;
+}
+.discuss .reviews .left .v7{
+  background-position: -30px -395px;
+}
+.discuss .reviews .left .v8{
+  background-position: -65px -395px;
+}
+.discuss .reviews .left .v9{
+  background-position: -103px -395px;
+}
+.discuss .reviews .left .v10{
+  background-position: -150px -395px;
+}
+.discuss .reviews .right {
+	padding-left: 10px;
+	vertical-align: top;
+	display: inline-block;
+  width: 866px;
+	font-size: 12px;
+}
+.discuss .reviews .right .text{
+	text-indent: 0;
+	font-size: 12px;
+}
+.discuss .reviews .right .time{
+	font-size: 12px;
+	color:#999;
+}
+.discuss .reviews .right .reply{
+	position: relative;
+	padding-top: 47px;
+}
+.discuss .reviews .right .reply .btn-reply{
+	position: absolute;
+	top:5px;
+	right: 10px;
+  padding: 0 3px;
+  line-height: 22px;
+	border: 1px solid #CDCDCD;
+  background: #fff;
+  color:#333;
+  text-align: center;
+}
+.discuss .reviews .right .input-reply{
+	display: none;
+}
+.discuss .reviews .right .input-reply .input-text{
+  width: 500px;
+  line-height: 28px;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+}
+.discuss .reviews .right .input-reply .btn-reply-sumbit{
+  width: 60px;
+  height: 30px;
+  margin: 0 0 0 10px;
+  color:#dcdbdb;
+  border: none;
+  border:1px solid #161616;
+  background:#292929;
+  -webkit-box-shadow: 1px 1px 1px #4d4d4a inset;
+  -moz-box-shadow: 1px 1px 1px #4d4d4a inset;
+  -ms-box-shadow: 1px 1px 1px #4d4d4a inset;
+  -o-box-shadow: 1px 1px 1px #4d4d4a inset;
+  box-shadow: 1px 1px 1px #4d4d4a inset;
+  border-radius: 8px;
+}*/
+.click-wrapper{
+	display: none;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 0 30px;
+  text-align: center;
+  background: #f1f1f1;
+  font-size: 14px;
+  cursor: pointer;
+}
+.chapter-loading{
+	display: none;
+	width: 1000px;
+  margin: 0 auto;
+  padding: 0 0 30px;
+	background: #f1f1f1;
+  font-size: 14px;
+  text-align: center;
+}
+/*icomoon*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon/icomoon.eot?vqr51a');
+  src:  url('../../fonts/icomoon/icomoon.eot?vqr51a#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon/icomoon.ttf?vqr51a') format('truetype'),
+    url('../../fonts/icomoon/icomoon.woff?vqr51a') format('woff'),
+    url('../../fonts/icomoon/icomoon.svg?vqr51a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-QQ:before {
+  content: "\e900";
+}
+.icon-weibo:before {
+  content: "\e901";
+}
+.icon-weixin:before {
+  content: "\e902";
+}

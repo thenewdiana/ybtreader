@@ -1,0 +1,33 @@
+html{font-size: 10px;}
+@media screen and (min-width:480px) and (max-width:639px) {
+    html {
+        font-size: 15px;
+}}
+.wrap{
+        width: 100%;
+        max-width: 640px; 
+        min-width: 320px;
+        margin: 0px auto; 
+        color: #666;
+        position: relative;
+      
+}
+.wrap1{background: #ebecec;}
+header{
+       position:fixed;
+       left:0;
+       top:0;
+       height:48px;
+       text-align:center;
+       background:#312e44;
+       color:#FFF;
+       width:100%;
+       z-index:50;
+       font-size: 1.8rem;
+       line-height: 48px;
+}
+.mainBox{
+	max-width: 640px;min-width: 320px;background: #ebecec;
+}
+
+

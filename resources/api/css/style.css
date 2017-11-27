@@ -1,0 +1,99 @@
+/*顶部*/
+.phone_header a{
+	position: absolute;top: 7px;left: 16px;width:12px;
+	}
+.icon_re{
+	width:100%;
+	}
+/*vip等级规则*/
+.block{
+	background: #ffffff;border-bottom: 1px solid #c9caca;border-top: 1px solid #c9caca;margin-bottom: 0.8rem;
+	}
+.block_main{background: #ffffff;padding-bottom: 4rem;}
+.floor{
+	width: 91%;margin:0 auto;padding-bottom: 2rem;
+}
+.main_title{
+	font-size: 1.5rem;color: #312e44;padding: 1.8rem 0px;
+}
+.title1{
+	font-size: 1.5rem;color: #312e44;margin-bottom: 1.9rem;padding-top: 1.8rem;margin-left: -1rem;
+	}
+.title2{
+	font-size: 1.5rem;color: #312e44;margin-bottom: 0.8rem;padding-top: 0.5rem;margin-left: -1rem;
+	}
+.way_list li{
+	color: #aaa7bc;font-size: 1.4rem;line-height: 2rem;
+	}
+.table_vip{
+	width: 100%;font-size: 1.4rem;margin-top: 1.2rem;
+	}
+.table_vip th{
+	color: #aaa7bc;padding-bottom: 0.8rem;border-bottom: 1px solid #c9caca;
+	}
+.table_vip td{ 
+    height: 3.7rem;color: #312e44;border-bottom: 1px solid #c9caca;text-align: center;vertical-align: middle;line-height: 1.5rem;
+}
+.table_vip tr td:first-child,.table_vip tr th:first-child{text-align: left;padding-left: 2px;}
+.br{border-right: 1px solid #C9CACA;}
+.vip_info{color: #aaa7bc;font-size: 1.3rem;padding-top: 1.6rem;}
+.vip_info p{line-height: 1.8rem;}
+.qu1{margin-top: 1rem;}
+.qu1 p{font-size: 1.4rem;line-height: 2rem;color: #aaa7bc;padding-bottom: 0.2rem;}
+.block_last{padding-bottom: 4rem;border-bottom: none;}
+/*粉丝详细值*/
+.fans_text{padding-bottom: 2.2rem;line-height: 2.3rem;}
+.fans_title{padding-top: 2rem;font-size: 1.5rem;}
+.fans_info{color: #AAA7BC;font-size: 1.4rem;}
+.fans_list li{line-height: 2.3rem;}
+/*我的消息*/
+.tab_list{background: #ebecec;height: 4.9rem;width: 100%;border-bottom: 1px solid #c9caca;}
+.tab_list li{width: 38%;float: left;line-height: 4.9rem;font-size: 1.6rem;color: #312e44;position: relative;}
+.tab_list li a{display: block;}
+.tab_list li.li_le{text-align: left;padding-left: 12%;}
+.tab_list li.li_ri{text-align: right;padding-right:12%;}
+.li_active{display: block;position: absolute;width:22px;left: 27.5%;bottom: 10px;}
+.li_active img{position: absolute;width: 100%;display: block;}
+.tab_list li.active{color: #ce0800;}
+.news_block{width: 91%;margin:0 auto;padding:2rem 0px 1.8rem;border-bottom: 1px solid #e6e6e6;}
+.news_icon{width: 12%;float: left;}
+.news_commont{position: relative;}
+.news_content{width: 84%;float: right;position: relative;}
+.news_content p:first-child{overflow: hidden;display: block;white-space: nowrap;text-overflow: ellipsis;}
+.news_content p{font-size: 1.5rem;line-height: 1.8rem;color:#ce0800;}
+.news_content .sp1{color: #ce0800;}
+.news_content .sp2{color: #312e44;}
+.news_list{clear:both;color: #aaa7bc;font-size: 1.4rem;line-height: 1.8rem;float: right;width: 84%;padding-top: 0.6rem;}
+.news_list p{margin-bottom: 0.4rem;}
+.news_time{font-size: 1.3rem;padding-top: 1.5rem;line-height: 1.2rem;}
+.btn_re{
+	display: block;width: ;background: #aaa7bc;width: 14.5%;height: 2.3rem;position: absolute;bottom: 0;right: 0px;border-radius: 5px;color: #fff;
+	line-height: 2.3rem;text-align: center;font-size: 1.3rem;
+	}
+.re_content{
+	float: left;width: 78%;font-size:1.4rem;padding:1.2rem 2% 0px;border: 1px solid #c9caca;border-radius: 8px;margin-top: 1rem;display: none;line-height: 1.7rem;
+	min-height: 1.6rem;　box-shadow:0px 0px 0px rgba(0,0,0,0); -webkit-appearance:none;
+	}
+.show{display: block;}
+/*我的消息 站短*/
+.li_active2{display: block;position: absolute;width:22px;right: 27.5%;bottom: 10px;}
+.li_active2 img{position: absolute;width: 100%;display: block;}
+.short_content{width: 90%;}
+.sp_title{display: block;float:left;width:48%;font-size: 1.4rem;color: #312e44;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.sp_time{color: #aaa7bc;font-size: 1.3rem;display: block;float: right;}
+.short_text{
+	padding-top:0.8rem;font-size: 1.4rem;color: #aaa7bc;line-height: 1.7rem;max-height: 3.4rem;overflow: hidden;
+}
+.btn_close{display: block;position: absolute;right: 0px; bottom: 1.3rem; width: 5%;}
+.btn_close img{width: 100%;}
+.a_link{display: block;color: #aaa7bc;}
+/*站短单条进入*/
+.de_title{font-size: 1.7rem; color: #312e44;padding-top: 2rem;}
+.de_list{padding-top: 1.3rem;}
+.de_list li,.de_font{color: #aaa7bc;font-size: 1.5rem;line-height: 2.2rem;}
+.de_time{color: #aaa7bc;font-size: 1.3rem;line-height: 1.9rem;}
+/*关于雁北堂*/
+.logo{padding-top: 5.4rem;}
+.logo img{display: block;width: 24%;margin:0 auto;}
+.logo span{display: block;text-align: center;color: #000;font-size: 2rem;padding-top: 1.2rem;}
+.about_text{padding-top: 3.4rem;color:#000 ;font-size: 1.3rem;line-height: 1.8rem;}
